@@ -21,6 +21,12 @@ a {
   z-index: 2;
 }
 
+#projects {
+  margin-left: clamp(4rem, 20vw, 48rem);
+  position: relative;
+  z-index: 2;
+}
+
 #menu[data-active-index="0"] > #menu-background-pattern {
   background-position: 0% -25%;
 }
@@ -114,4 +120,47 @@ a {
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
   transition: opacity 400ms ease;
+}
+
+.home-button {
+  position: top;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: clamp(3rem, 8vw, 8rem);
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+  text-decoration: none;
+  transition: opacity 400ms ease;
+}
+
+div {
+  position: relative;
+
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: clamp(1rem, 2vw, 3rem);
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+  text-decoration: none;
+  transition: opacity 400ms ease;
+}
+
+img {
+  width: 35%;
+  height: auto;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: #2C2C2C;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
